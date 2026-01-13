@@ -1,0 +1,185 @@
+# Tandoori Fuzion Restaurant Website
+
+## Business Overview
+Tandoori Fuzion is an Indian restaurant located in St. Albert, Alberta, Canada. We specialize in authentic Indian cuisine with modern twists, offering both traditional dishes and fusion creations. Voted Best Asian Restaurant and Best Vegan Restaurant in 2024.
+
+## Location & Contact Information
+- **Address**: St. Albert, Alberta, Canada
+- **Geographic Coordinates**: 53.6729339, -113.6384325
+- **Website**: https://www.tandoorifuzion.com
+- **Service Areas**: St. Albert, Erin Ridge, Oakmont, Riel Business Park, St. Albert Downtown
+
+## Key Features & Services
+
+### Restaurant Services
+- Dine-in restaurant with cozy atmosphere
+- Takeout and delivery services
+- Catering for events and special occasions
+- Online reservation system
+- Online enquiry form for custom requests
+
+### Cuisine Specialties
+- Authentic Indian dishes
+- Modern fusion creations
+- Extensive vegan and vegetarian options
+- Gluten-free options available
+
+### Signature Dishes
+- Butter Chicken
+- Chicken Tikka Masala
+- Lamb Biryani
+- Kadhai Paneer
+- Honey Chilli Fries
+- Chicken Tikka
+- Shahi Paneer
+- Chicken Black Pepper
+- Chicken Chettinad
+- Gulab Jamun
+- Malai Kofta
+- Tandoori Chicken
+- Garlic Naan
+
+## Website Structure
+
+### Main Pages
+- **Home** (index.html): Main landing page showcasing restaurant highlights, and featured dishes
+- **Menu** (menu.html): Complete menu with categories, dishes, prices, and dietary information
+- **About** (about.html): Restaurant story, mission, and values
+- **Our Food** (our-food.html): Detailed information about cuisine philosophy and ingredients
+- **Catering** (catering.html): Catering services for events, parties, and corporate functions
+- **Reservation** (reservation.html): Online table booking system
+- **Contact Us** (contact-us.html): Location, hours, phone numbers, and contact form
+- **Enquiry** (enquiry.html): Custom request and inquiry form
+
+### Location-Specific Pages
+- St. Albert Indian Restaurant (st-albert-indian-restaurant.html)
+- Erin Ridge Indian Restaurant (tags/places/erin-ridge-indian-restaurant.html)
+- Oakmont Indian Restaurant (tags/places/oakmont-indian-restaurant.html)
+- Riel Business Park Indian Restaurant (tags/places/riel-business-park-indian-restaurant.html)
+- St. Albert Downtown Indian Restaurant (tags/places/st-albert-downtown-indian-restaurant.html)
+
+### Service Pages
+- Indian Food Delivery St. Albert (tags/indian-food-delivery-st-albert.html)
+- Indian Food Takeout St. Albert (tags/indian-food-takeout-st-albert.html)
+
+### Dish-Specific Pages
+- Butter Chicken St. Albert (tags/dishes/butter-chicken-st-albert.html)
+- Chicken Tikka Masala St. Albert (tags/dishes/chicken-tikka-masala-st-albert.html)
+- Honey Chilli Fries St. Albert (tags/dishes/honey-chilli-fries-st-albert.html)
+- Kadhai Paneer St. Albert (tags/dishes/kadhai-paneer-st-albert.html)
+- Lamb Biryani St. Albert (tags/dishes/lamb-biryani-st-albert.html)
+
+### Legal Pages
+- Privacy Policy (privacy-policy.html)
+- Terms of Use (terms-of-use.html)
+
+## Technical Implementation
+
+### Frontend Technologies
+- HTML5 semantic markup
+- CSS3 with responsive design
+- JavaScript for interactivity
+- Component-based architecture (components.js)
+- Dynamic header and footer components
+
+### Assets Organization
+- Images optimized in WebP format
+- Categorized asset folders (gallery, banners, dishes, icons)
+- SVG icons for UI elements
+- Responsive image loading
+
+### SEO Features
+- Semantic HTML structure
+- Meta descriptions and keywords
+- Open Graph tags for social media
+- Twitter Card integration
+- Sitemap.xml for search engines
+- Robots.txt for crawler guidance
+- Canonical URLs
+- Structured data markup
+- Local business schema
+
+### Performance Optimizations
+- WebP image format for faster loading
+- Component-based architecture for code reusability
+- Responsive images with proper sizing
+- Lazy loading implementation
+- Optimized meta viewport settings
+
+## Content Guidelines
+
+### Brand Voice
+- Warm and welcoming tone
+- Emphasis on quality and authenticity
+- Focus on fresh ingredients and traditional techniques
+- Modern twists on classic flavors
+
+### Key Messaging
+- "Modern Twists, Classic Flavours"
+- Best Asian Restaurant 2024
+- Best Vegan Restaurant 2024
+- Authentic Indian delicacies
+- Cozy St. Albert atmosphere
+- Family-friendly dining
+- Catering for all occasions
+
+## User Experience Features
+
+### Navigation
+- Clear menu structure
+- Quick access to reservations
+- Easy-to-find contact information
+- Mobile-responsive design
+- Accessibility considerations
+
+### Interactive Elements
+- Online reservation system
+- Enquiry form for custom requests
+- Image galleries
+- Menu browsing with filters
+- Social media integration
+
+## Business Objectives
+2. Drive online reservations and orders
+3. Highlight diverse menu options including vegan and gluten-free
+4. Promote catering services
+5. Build local SEO presence in St. Albert area
+6. Provide easy access to menu and pricing information
+7. Facilitate customer inquiries and feedback
+
+## Target Audience
+- Local St. Albert residents
+- Indian food enthusiasts
+- Vegans and vegetarians
+- Families looking for dining options
+- Corporate clients for catering
+- Event planners
+- Food delivery customers
+- Health-conscious diners
+
+## Unique Selling Points
+- best indian restaurant (Best Asian & Vegan 2024)
+- Authentic Indian cuisine with modern fusion
+- Extensive vegan and vegetarian menu
+- Gluten-free options
+- Professional catering services
+- Convenient St. Albert location
+- Online ordering and reservations
+- Family-friendly atmosphere
+
+## Content Management
+- Regular menu updates
+- Seasonal specials and promotions
+- Event announcements
+- Gallery updates with new dishes
+- Customer testimonials
+
+## Future Enhancements
+- Online ordering system integration
+- Loyalty program implementation
+- Mobile app development
+- Enhanced photo galleries
+- Customer review integration
+- Real-time table availability
+- Newsletter subscription
+- Blog for recipes and stories
