@@ -440,29 +440,23 @@
     <!--                    Hero                      -->
     <!-- ============================================ -->
 
-    <section id="home-hero" class="home-v2-hero">
+    <section id="home-hero">
       <div class="cs-container">
         <div class="cs-content">
-          <span class="home-v2-topper">Award-Winning Indian Cuisine</span>
-          <h1 class="cs-title">Welcome to <span>Tandoori Fuzion</span></h1>
+          <h1 class="cs-title">Welcome to Tandoori Fuzion</h1>
           <p class="cs-subtitle">Best Indian Restaurant in St. Albert</p>
           <p class="cs-text">
             Experience modern twists on classic Indian flavours at Tandoori
-            Fuzion in St. Albert! Proudly voted Best Asian Restaurant and
-            Best Vegan Restaurant for 2024, we offer authentic delicacies in a
-            cozy atmosphere. Join us for a memorable fusion dining experience
+            Fuzion in St. Albert! Proudly voted Best Asian Restaurant and 
+            Best Vegan Restaurant for 2024, we offer authentic delicacies in a 
+            cozy atmosphere. Join us for a memorable fusion dining experience 
             or order for takeout and delivery.
           </p>
-          <div class="home-v2-badges">
-            <span class="home-v2-badge"><i class="ri-award-fill"></i> Best Asian 2024</span>
-            <span class="home-v2-badge"><i class="ri-leaf-fill"></i> Best Vegan 2024</span>
-          </div>
           <div class="cs-button-group">
             <a
               href="https://orders.iorders.online/tandoori-fuzion-albert-trail"
               class="cs-button-solid cs-button1"
               target="_blank"
-              onclick="fbq('track', 'Lead');"
               >Order Now</a
             >
           </div>
@@ -483,15 +477,11 @@
           aria-hidden="true"
         />
       </picture>
-      <div class="home-v2-scroll-indicator">
-        <span>Scroll</span>
-        <i class="ri-arrow-down-line"></i>
-      </div>
     </section>
 
     <!-- header -->
     <!-- Signature Dish -->
-    <section class="section__container explore__container home-v2-section" id="signature-dish">
+    <section class="section__container explore__container" id="signature-dish">
       <div class="explore__image">
         <img
           src="assets/banner/5.webp"
@@ -504,7 +494,6 @@
         />
       </div>
       <div class="explore__content">
-        <span class="home-v2-label">Our Story</span>
         <h2 class="section__header">
           Our Specialties <span>Authentic Indian Cuisine</span>
         </h2>
@@ -531,8 +520,7 @@
 
     <!-- popular dishes -->
 
-    <section class="special__container home-v2-popular" id="popular">
-      <span class="home-v2-label">Featured Menu</span>
+    <section class="special__container" id="popular">
       <h2 class="section__header">Our Popular Dishes</h2>
       <div class="menu-btn-wrapper">
         <a href="menu.html#menu-section" class="btn" style="margin-bottom: 2rem"
@@ -705,7 +693,7 @@
 
     <!-- explore section -->
 
-    <section class="section__container explore__container home-v2-section" id="about">
+    <section class="section__container explore__container" id="about">
       <div class="explore__image">
         <img
           src="assets/banner/6.webp"
@@ -716,7 +704,6 @@
         />
       </div>
       <div class="explore__content">
-        <span class="home-v2-label">Discover Us</span>
         <h2 class="section__header">
           Experience Authentic Indian Cuisine & Warm Hospitality
         </h2>
@@ -739,8 +726,7 @@
     <!-- explore section -->
     
     <!-- Expanded FAQ Section -->
-    <section class="section__container faq__container home-v2-faq" id="faq">
-      <span class="home-v2-label">Have Questions?</span>
+    <section class="section__container faq__container" id="faq">
       <h2 class="section__header">Frequently Asked Questions</h2>
       <p class="section__description">
         Find answers to common questions about our services, delivery, menu options, and locations we serve.
@@ -884,27 +870,6 @@
     </section>
     <!-- End Expanded FAQ Section -->
 
-    <!-- ============================================ -->
-    <!--                CTA SECTION                  -->
-    <!-- ============================================ -->
-    <section class="home-v2-cta">
-      <div class="home-v2-cta-container">
-        <h2 class="home-v2-cta-title">Ready to Experience Tandoori Fuzion?</h2>
-        <p class="home-v2-cta-text">
-          Order your favorite dishes online for pickup or delivery, or join us in St. Albert
-          for an unforgettable dining experience.
-        </p>
-        <div class="home-v2-cta-buttons">
-          <a href="https://orders.iorders.online/tandoori-fuzion-albert-trail" target="_blank" class="home-v2-cta-btn home-v2-cta-btn-primary" onclick="fbq('track', 'Lead');">
-            <i class="ri-shopping-bag-line"></i> Order Online
-          </a>
-          <a href="contact-us.html" class="home-v2-cta-btn home-v2-cta-btn-secondary">
-            <i class="ri-map-pin-line"></i> Visit Us
-          </a>
-        </div>
-      </div>
-    </section>
-
     <!-- footer -->
 
     <div id="footer-container"></div>
@@ -959,47 +924,5 @@
           }
       });
   </script>
-
-    <!-- ScrollReveal Initialization for Home Page -->
-    <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        if (typeof ScrollReveal !== 'undefined') {
-          const sr = ScrollReveal({
-            origin: 'bottom',
-            distance: '30px',
-            duration: 800,
-            delay: 100,
-            easing: 'cubic-bezier(0.5, 0, 0, 1)',
-            reset: false
-          });
-
-          // Signature section
-          sr.reveal('.home-v2-section .explore__image', { delay: 100, origin: 'left' });
-          sr.reveal('.home-v2-section .explore__content', { delay: 200, origin: 'right' });
-
-          // Popular dishes
-          sr.reveal('.home-v2-popular .home-v2-label', { delay: 100 });
-          sr.reveal('.home-v2-popular .section__header', { delay: 150 });
-          sr.reveal('.home-v2-popular .section__description', { delay: 200 });
-          sr.reveal('.home-v2-popular .special__card', {
-            delay: 150,
-            interval: 100
-          });
-
-          // FAQ section
-          sr.reveal('.home-v2-faq .home-v2-label', { delay: 100 });
-          sr.reveal('.home-v2-faq .section__header', { delay: 150 });
-          sr.reveal('.home-v2-faq .faq__category', {
-            delay: 200,
-            interval: 150
-          });
-
-          // CTA section
-          sr.reveal('.home-v2-cta-title', { delay: 100 });
-          sr.reveal('.home-v2-cta-text', { delay: 200 });
-          sr.reveal('.home-v2-cta-buttons', { delay: 300 });
-        }
-      });
-    </script>
   </body>
 </html>

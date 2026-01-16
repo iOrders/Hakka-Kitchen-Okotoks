@@ -248,7 +248,6 @@
 
     <!-- navbar -->
 
-    <!-- Breadcrumbs -->
     <div class="breadcrumb-container">
       <div class="breadcrumb-wrapper">
         <ul class="breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
@@ -265,144 +264,163 @@
         </ul>
       </div>
     </div>
+    
 
-    <!-- ============================================ -->
-    <!--                 HERO SECTION                 -->
-    <!-- ============================================ -->
-    <section class="food-v2-hero">
-      <div class="food-v2-hero-bg">
-        <img src="./assets/banner/4.webp" alt="Tandoori Fuzion food gallery - Best Indian Restaurant in St. Albert" />
-      </div>
-      <div class="food-v2-hero-overlay"></div>
+    <!-- gallery header -->
 
-      <div class="food-v2-hero-content">
-        <span class="food-v2-hero-topper">Award-Winning Cuisine</span>
-        <h1 class="food-v2-hero-title">
-          A <span>Feast</span> for the Senses
-        </h1>
-        <p class="food-v2-hero-subtitle">
-          Explore our mouthwatering selection of authentic Indian dishes and tandoori specialties.
-          From signature Butter Chicken to aromatic Lamb Biryani, every dish is crafted with passion.
-        </p>
-        <div class="food-v2-hero-cta">
-          <a href="#food-gallery" class="btn">Explore Our Gallery</a>
+    <section class="section__container" id="gallery-header">
+      <div class="cs-container">
+        <div class="cs-content">
+          <span class="cs-topper">Our Food Gallery</span>
+          <h1 class="cs-title">
+            Experience Authentic Indian Cuisine at Tandoori Fuzion St. Albert
+          </h1>
+          <p class="cs-text">
+            Explore our mouthwatering selection of authentic Indian dishes and
+            tandoori specialties at <a href="index.html" style="color: #ca0000; font-weight: bold; text-decoration: underline;">Tandoori Fuzion</a>, voted 
+            <a href="about.html" style="color: #ca0000; font-weight: bold; text-decoration: underline;">Best Asian & Vegan Restaurant for 2024</a>. 
+            From our signature Butter Chicken and Chicken
+            Tikka Masala to our flavorful Lamb Biryani and vegetarian delights
+            like Malai Kofta and Shahi Paneer, every dish is prepared with care
+            using premium ingredients and traditional spices. Whether you're
+            craving our tandoori specialties, rich curries, fresh-baked naan, or
+            aromatic biryanis, Tandoori Fuzion offers the perfect blend of
+            authentic Indian flavors in the heart of St. Albert. Check out our full 
+            <a href="menu.html" style="color: #ca0000; font-weight: bold; text-decoration: underline;">menu</a> or 
+            <a href="contact-us.html" style="color: #ca0000; font-weight: bold; text-decoration: underline;">contact us</a> to place an order.
+          </p>
+          <a href="#menu-choice-gallery" class="cs-button-solid"
+            >See Our Dishes</a
+          >
         </div>
+        <!--Hero Image-->
+        <picture class="cs-picture">
+          <!--Mobile-->
+          <source
+            media="(max-width: 600px)"
+            srcset="./assets/banner/4.webp"
+            alt="Best indian restaurant in St. Albert, AB"
+          />
+          <!--Tablet-->
+          <source
+            media="(min-width: 601px)"
+            srcset="./assets/banner/4.webp"
+            alt="Best indian restaurant in St. Albert, AB"
+          />
+          <!--Desktop-->
+          <source
+            media="(min-width: 1024px)"
+            srcset="./assets/banner/4.webp"
+            alt="Best indian restaurant in St. Albert, AB"
+          />
+          <img
+            aria-hidden="true"
+            decoding="async"
+            src="./assets/banner/4.webp"
+            alt="Best indian restaurant in St. Albert, AB"
+            width="570"
+            height="701"
+          />
+        </picture>
       </div>
+      <svg
+        class="cs-wave"
+        width="1920"
+        height="179"
+        viewBox="0 0 1920 179"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M1920 179V91.3463C1835.33 91.3463 1715.47 76.615 1549.2 32.9521C1299.48 -32.3214 1132.77 12.1006 947.32 61.5167C810.762 97.9044 664.042 137 466.533 137C331.607 137 256.468 123.447 188.082 111.113C130.974 100.812 78.5746 91.3609 0 91.3609V179H1920Z"
+          fill="white"
+        />
+      </svg>
+    </section>
 
-      <div class="food-v2-scroll-indicator">
-        <span>Scroll</span>
-        <i class="ri-arrow-down-line"></i>
+    <!-- gallery category section -->
+
+    <section
+      id="menu-choice-gallery"
+      class="section__container dish-card-container"
+    >
+      <div class="dish-content">
+        <div class="dish-category-title">
+          <h1>Our Dishes</h1>
+        </div>
+        <div class="dish-gallery">
+          <div class="dish-wrapper">
+            <div class="single-box">
+              <a
+                ><img
+                  src="./assets/gallery/1.webp"
+                  alt="Best chciken black pepper in St. Albert, AB"
+              /></a>
+            </div>
+            <div class="single-box">
+              <a
+                ><img
+                  src="./assets/gallery/2.webp"
+                  alt="Best chicken chettinad in St. Albert, AB"
+              /></a>
+            </div>
+            <div class="single-box">
+              <a
+                ><img
+                  src="./assets/gallery/3.webp"
+                  alt="Best shahi paneer in St. Albert, AB"
+              /></a>
+            </div>
+            <div class="single-box">
+              <a
+                ><img
+                  src="./assets/gallery/4.webp"
+                  alt="Best chicken tikka masala in St. Albert, AB"
+              /></a>
+            </div>
+            <div class="single-box">
+              <a
+                ><img
+                  src="./assets/gallery/5.webp"
+                  alt="Best gulab jamun in St. Albert, AB"
+              /></a>
+            </div>
+            <div class="single-box">
+              <a
+                ><img
+                  src="./assets/gallery/6.webp"
+                  alt="Best honey chilli fries in St. Albert, AB"
+              /></a>
+            </div>
+            <div class="single-box">
+              <a
+                ><img
+                  src="./assets/gallery/7.webp"
+                  alt="Best kadhai paneer in St. Albert, AB"
+              /></a>
+            </div>
+            <div class="single-box">
+              <a
+                ><img
+                  src="./assets/gallery/8.webp"
+                  alt="Best lamb biryani in St. Albert, AB"
+              /></a>
+            </div>
+            <div class="single-box">
+              <a
+                ><img
+                  src="./assets/gallery/9.webp"
+                  alt="Best butter chicken in St. Albert, AB"
+              /></a>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
-    <!-- ============================================ -->
-    <!--               GALLERY SECTION               -->
-    <!-- ============================================ -->
-    <section class="food-v2-gallery" id="food-gallery">
-      <div class="food-v2-gallery-container">
-        <div class="food-v2-gallery-header">
-          <span class="food-v2-gallery-label">Our Signature Dishes</span>
-          <h2 class="food-v2-gallery-title">Crafted with Love, Served with Pride</h2>
-        </div>
-
-        <div class="food-v2-gallery-grid">
-          <!-- Featured Item -->
-          <div class="food-v2-gallery-item featured">
-            <img src="./assets/gallery/1.webp" alt="Chicken Black Pepper - Tandoori Fuzion signature dish" />
-            <div class="food-v2-gallery-item-overlay">
-              <h3 class="food-v2-gallery-item-title">Chicken Black Pepper</h3>
-              <span class="food-v2-gallery-item-tag">Chef's Special</span>
-            </div>
-          </div>
-
-          <!-- Regular Items -->
-          <div class="food-v2-gallery-item">
-            <img src="./assets/gallery/2.webp" alt="Chicken Chettinad - South Indian spiced curry" />
-            <div class="food-v2-gallery-item-overlay">
-              <h3 class="food-v2-gallery-item-title">Chicken Chettinad</h3>
-              <span class="food-v2-gallery-item-tag">South Indian</span>
-            </div>
-          </div>
-
-          <div class="food-v2-gallery-item">
-            <img src="./assets/gallery/3.webp" alt="Shahi Paneer - Creamy paneer curry" />
-            <div class="food-v2-gallery-item-overlay">
-              <h3 class="food-v2-gallery-item-title">Shahi Paneer</h3>
-              <span class="food-v2-gallery-item-tag">Vegetarian</span>
-            </div>
-          </div>
-
-          <div class="food-v2-gallery-item">
-            <img src="./assets/gallery/4.webp" alt="Chicken Tikka Masala - Best seller" />
-            <div class="food-v2-gallery-item-overlay">
-              <h3 class="food-v2-gallery-item-title">Chicken Tikka Masala</h3>
-              <span class="food-v2-gallery-item-tag">Best Seller</span>
-            </div>
-          </div>
-
-          <div class="food-v2-gallery-item">
-            <img src="./assets/gallery/5.webp" alt="Gulab Jamun - Traditional Indian dessert" />
-            <div class="food-v2-gallery-item-overlay">
-              <h3 class="food-v2-gallery-item-title">Gulab Jamun</h3>
-              <span class="food-v2-gallery-item-tag">Dessert</span>
-            </div>
-          </div>
-
-          <div class="food-v2-gallery-item">
-            <img src="./assets/gallery/6.webp" alt="Honey Chilli Fries - Fusion appetizer" />
-            <div class="food-v2-gallery-item-overlay">
-              <h3 class="food-v2-gallery-item-title">Honey Chilli Fries</h3>
-              <span class="food-v2-gallery-item-tag">Fusion</span>
-            </div>
-          </div>
-
-          <div class="food-v2-gallery-item">
-            <img src="./assets/gallery/7.webp" alt="Kadhai Paneer - Spiced cottage cheese" />
-            <div class="food-v2-gallery-item-overlay">
-              <h3 class="food-v2-gallery-item-title">Kadhai Paneer</h3>
-              <span class="food-v2-gallery-item-tag">Vegetarian</span>
-            </div>
-          </div>
-
-          <div class="food-v2-gallery-item">
-            <img src="./assets/gallery/8.webp" alt="Lamb Biryani - Aromatic rice dish" />
-            <div class="food-v2-gallery-item-overlay">
-              <h3 class="food-v2-gallery-item-title">Lamb Biryani</h3>
-              <span class="food-v2-gallery-item-tag">Premium</span>
-            </div>
-          </div>
-
-          <div class="food-v2-gallery-item">
-            <img src="./assets/gallery/9.webp" alt="Butter Chicken - Classic favorite" />
-            <div class="food-v2-gallery-item-overlay">
-              <h3 class="food-v2-gallery-item-title">Butter Chicken</h3>
-              <span class="food-v2-gallery-item-tag">Classic</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ============================================ -->
-    <!--                CTA SECTION                  -->
-    <!-- ============================================ -->
-    <section class="food-v2-cta">
-      <div class="food-v2-cta-container">
-        <h2 class="food-v2-cta-title">Ready to Taste the Magic?</h2>
-        <p class="food-v2-cta-text">
-          Explore our full menu and order your favorites online, or visit us in St. Albert
-          for the complete Tandoori Fuzion experience.
-        </p>
-        <div class="food-v2-cta-buttons">
-          <a href="https://orders.iorders.online/tandoori-fuzion-albert-trail" target="_blank" class="food-v2-cta-btn food-v2-cta-btn-primary" onclick="fbq('track', 'Lead');">
-            <i class="ri-shopping-bag-line"></i> Order Online
-          </a>
-          <a href="menu.html" class="food-v2-cta-btn food-v2-cta-btn-secondary">
-            <i class="ri-restaurant-line"></i> View Full Menu
-          </a>
-        </div>
-      </div>
-    </section>
+    <!-- gallery category section -->
 
     <!-- footer -->
 
@@ -414,35 +432,5 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script type="module" src="script.js"></script>
     <script src="./components.js"></script>
-
-    <!-- ScrollReveal Initialization for Food Page -->
-    <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        if (typeof ScrollReveal !== 'undefined') {
-          const sr = ScrollReveal({
-            origin: 'bottom',
-            distance: '30px',
-            duration: 800,
-            delay: 100,
-            easing: 'cubic-bezier(0.5, 0, 0, 1)',
-            reset: false
-          });
-
-          // Gallery header
-          sr.reveal('.food-v2-gallery-header', { delay: 100 });
-
-          // Gallery items with stagger
-          sr.reveal('.food-v2-gallery-item', {
-            delay: 150,
-            interval: 100
-          });
-
-          // CTA section
-          sr.reveal('.food-v2-cta-title', { delay: 100 });
-          sr.reveal('.food-v2-cta-text', { delay: 200 });
-          sr.reveal('.food-v2-cta-buttons', { delay: 300 });
-        }
-      });
-    </script>
   </body>
 </html>

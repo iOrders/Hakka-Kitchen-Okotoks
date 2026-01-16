@@ -1,7 +1,7 @@
-name: Update Menu Daily Tandoori Fuzion
+name: Update Menu Daily Wing Crafters London
 
 env:
-  ORDERING_LINK: https://orders.iorders.online/https://orders.iorders.online/tandoori-fuzion-albert-trail
+  ORDERING_LINK: https://orders.iorders.online/wing-crafters-london-5092
   # STORE_NAME is derived from ORDERING_LINK (removes https://orders.iorders.online/)
 
 on:

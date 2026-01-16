@@ -259,7 +259,6 @@
 
     <div id="header-container"></div>
 
-    <!-- Breadcrumbs -->
     <div class="breadcrumb-container">
       <div class="breadcrumb-wrapper">
         <ul class="breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
@@ -276,146 +275,95 @@
         </ul>
       </div>
     </div>
+    
 
     <!-- ============================================ -->
-    <!--                 HERO SECTION                 -->
+    <!--                    Hero                      -->
     <!-- ============================================ -->
-    <section class="contact-v2-hero">
-      <div class="contact-v2-hero-bg">
-        <img src="./assets/backgrounds/5.webp" alt="Contact Tandoori Fuzion - Best Indian Restaurant in St. Albert" />
-      </div>
-      <div class="contact-v2-hero-overlay"></div>
 
-      <div class="contact-v2-hero-content">
-        <span class="contact-v2-hero-topper">We'd Love to Hear From You</span>
-        <h1 class="contact-v2-hero-title">Get in Touch</h1>
-        <p class="contact-v2-hero-subtitle">
-          Have questions, feedback, or want to make a reservation? We're here to help
-          and can't wait to serve you at Tandoori Fuzion.
+    <section id="contact-section-hero">
+      <div class="cs-container">
+        <h1 class="cs-title">Contact Us</h1>
+        <p class="cs-text">
+          Have questions or feedback about <a href="index.html" style="color: #ca0000; font-weight: bold; text-decoration: underline;">Tandoori Fuzion</a>, 
+          voted <a href="about.html" style="color: #ca0000; font-weight: bold; text-decoration: underline;">Best Asian & Vegan Restaurant for 2024</a>? 
+          We'd love to hear from you. Contact us for reservations, or any other information about our restaurant.
         </p>
-        <div class="contact-v2-hero-cta">
-          <a href="#contact-main" class="btn">Contact Us</a>
-        </div>
+        <a href="#contact-section" class="cs-button-solid">Contact Us</a>
       </div>
+
+      <!-- Background Image -->
+      <picture class="cs-background">
+        <source
+          media="(max-width: 600px)"
+          srcset="./assets/backgrounds/5.webp"
+        />
+        <source
+          media="(min-width: 601px)"
+          srcset="./assets/backgrounds/5.webp"
+        />
+        <img
+          decoding="async"
+          src="./assets/backgrounds/5.webp"
+          alt="Best indian restaurant in St. Albert, AB"
+          width="2250"
+          height="1500"
+          aria-hidden="true"
+        />
+      </picture>
     </section>
 
-    <!-- ============================================ -->
-    <!--               CONTACT MAIN SECTION          -->
-    <!-- ============================================ -->
-    <section class="contact-v2-main" id="contact-main">
-      <div class="contact-v2-container">
-        <!-- Contact Info Card -->
-        <div class="contact-v2-info">
-          <div class="contact-v2-info-header">
-            <span class="contact-v2-info-label">Contact Information</span>
-            <h2 class="contact-v2-info-title">Let's Connect</h2>
-            <p class="contact-v2-info-text">
-              Reach out to us for reservations, inquiries, or just to say hello.
-              We're always happy to hear from our guests.
-            </p>
-          </div>
+    <!-- navbar -->
 
-          <div class="contact-v2-details">
-            <!-- Location -->
-            <div class="contact-v2-detail-item">
-              <div class="contact-v2-detail-icon">
-                <i class="ri-map-pin-line"></i>
-              </div>
-              <div class="contact-v2-detail-content">
-                <h4>Visit Us</h4>
-                <p>1115 St Albert Trl #360<br>St. Albert, AB T8N 7X6</p>
-              </div>
-            </div>
-
-            <!-- Phone -->
-            <div class="contact-v2-detail-item">
-              <div class="contact-v2-detail-icon">
-                <i class="ri-phone-line"></i>
-              </div>
-              <div class="contact-v2-detail-content">
-                <h4>Call Us</h4>
-                <a href="tel:17804594808">+1 (780) 459-4808</a>
-              </div>
-            </div>
-
-            <!-- Email -->
-            <div class="contact-v2-detail-item">
-              <div class="contact-v2-detail-icon">
-                <i class="ri-mail-line"></i>
-              </div>
-              <div class="contact-v2-detail-content">
-                <h4>Email Us</h4>
-                <a href="mailto:info.tandoorifuzion@gmail.com">info.tandoorifuzion@gmail.com</a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Opening Hours -->
-          <div class="contact-v2-hours">
-            <h3 class="contact-v2-hours-title">
-              <i class="ri-time-line"></i> Opening Hours
-            </h3>
-            <div class="contact-v2-hours-list">
-              <div class="contact-v2-hours-item">
-                <span>Monday - Friday</span>
-                <span>11:30 AM - 9:00 PM</span>
-              </div>
-              <div class="contact-v2-hours-item">
-                <span>Saturday - Sunday</span>
-                <span>12:00 PM - 9:00 PM</span>
-              </div>
-            </div>
-          </div>
-
-          <!-- Social Links -->
-          <div class="contact-v2-social">
-            <a href="https://www.facebook.com/Tandoorifuzioncanada/" target="_blank" class="contact-v2-social-link" aria-label="Facebook">
-              <i class="ri-facebook-fill"></i>
-            </a>
-            <a href="https://www.instagram.com/tandoori.fuzion/" target="_blank" class="contact-v2-social-link" aria-label="Instagram">
-              <i class="ri-instagram-line"></i>
-            </a>
-          </div>
-        </div>
-
-        <!-- Map -->
-        <div class="contact-v2-map-wrapper">
-          <div class="contact-v2-map">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2363.5505163105136!2d-113.6384433!3d53.6728132!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53a025e47f0b24a9%3A0x41705477245d327c!2sTandoori%20Fuzion!5e0!3m2!1sen!2sin!4v1750916287381!5m2!1sen!2sin"
-              width="100%"
-              height="100%"
-              style="border: 0"
-              allowfullscreen=""
-              loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
-              title="Tandoori Fuzion Location Map"
-            ></iframe>
-          </div>
-        </div>
+    <header class="section__container header__container" id="contact-section">
+      <div class="map-container">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2363.5505163105136!2d-113.6384433!3d53.6728132!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53a025e47f0b24a9%3A0x41705477245d327c!2sTandoori%20Fuzion!5e0!3m2!1sen!2sin!4v1750916287381!5m2!1sen!2sin"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
       </div>
-    </section>
-
-    <!-- ============================================ -->
-    <!--                CTA SECTION                  -->
-    <!-- ============================================ -->
-    <section class="contact-v2-cta">
-      <div class="contact-v2-cta-container">
-        <h2 class="contact-v2-cta-title">Ready to Order?</h2>
-        <p class="contact-v2-cta-text">
-          Skip the wait and order your favorite dishes online for pickup or delivery.
-          Experience the best Indian cuisine in St. Albert from the comfort of your home.
+      <div class="header__contact__content">
+        <h1>Get in Touch</h1>
+        <p class="contact__section__description">
+          Get in touch with us for any inquiries or to place your order for our 
+          <a href="menu.html" style="color: #ca0000; font-weight: bold; text-decoration: underline;">menu</a>. 
+          Check out our <a href="our-food.html" style="color: #ca0000; font-weight: bold; text-decoration: underline;">food gallery</a> 
+          and reach us via phone or follow us on social media for updates and promotions.
         </p>
-        <div class="contact-v2-cta-buttons">
-          <a href="https://orders.iorders.online/tandoori-fuzion-albert-trail" target="_blank" class="contact-v2-cta-btn contact-v2-cta-btn-primary" onclick="fbq('track', 'Lead');">
-            <i class="ri-shopping-bag-line"></i> Order Online
-          </a>
-          <a href="menu.html" class="contact-v2-cta-btn contact-v2-cta-btn-secondary">
-            <i class="ri-restaurant-line"></i> View Menu
-          </a>
-        </div>
+        <ul class="contact-list">
+          <!-- <li>
+            <a href="mailto:info.tandoorifuzion@gmail.com"
+              ><i class="fa-solid fa-envelope"></i>
+              <span>info.tandoorifuzion@gmail.com</span></a
+            >
+          </li> -->
+          <li>
+            <a href="tel:17804594808" target="_blank"
+              ><i class="fa-solid fa-phone"></i>
+              <span>+1 (780) 459-4808 </span></a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.facebook.com/Tandoorifuzioncanada/"
+              target="_blank"
+              ><i class="fa-brands fa-facebook"></i> <span>Facebook</span></a
+            >
+          </li>
+
+          <li>
+            <a href="https://www.instagram.com/tandoori.fuzion/" target="_blank"
+              ><i class="fa-brands fa-instagram"></i> <span>Instagram</span></a
+            >
+          </li>
+        </ul>
       </div>
-    </section>
+    </header>
 
     <!-- footer -->
 
@@ -427,41 +375,5 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script type="module" src="script.js"></script>
     <script src="./components.js"></script>
-
-    <!-- ScrollReveal Initialization for Contact Page -->
-    <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        if (typeof ScrollReveal !== 'undefined') {
-          const sr = ScrollReveal({
-            origin: 'bottom',
-            distance: '30px',
-            duration: 800,
-            delay: 100,
-            easing: 'cubic-bezier(0.5, 0, 0, 1)',
-            reset: false
-          });
-
-          // Contact info section
-          sr.reveal('.contact-v2-info-header', { delay: 100 });
-          sr.reveal('.contact-v2-detail-item', {
-            delay: 150,
-            interval: 100
-          });
-          sr.reveal('.contact-v2-hours', { delay: 300 });
-          sr.reveal('.contact-v2-social', { delay: 350 });
-
-          // Map
-          sr.reveal('.contact-v2-map-wrapper', {
-            delay: 200,
-            origin: 'right'
-          });
-
-          // CTA section
-          sr.reveal('.contact-v2-cta-title', { delay: 100 });
-          sr.reveal('.contact-v2-cta-text', { delay: 200 });
-          sr.reveal('.contact-v2-cta-buttons', { delay: 300 });
-        }
-      });
-    </script>
   </body>
 </html>

@@ -120,82 +120,6 @@
         ]
       }
     </script>
-
-    <!-- Breadcrumbs Schema -->
-    <script type="application/ld+json">
-      {
-        "@context": "http://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Home",
-            "item": "https://www.tandoorifuzion.com"
-          },
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "name": "St. Albert Indian Restaurant",
-            "item": "https://www.tandoorifuzion.com/st-albert-indian-restaurant.html"
-          }
-        ]
-      }
-    </script>
-
-    <!-- FAQ Schema -->
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "Where is Tandoori Fuzion located in St. Albert?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Tandoori Fuzion is located at 1115 St Albert Trail #360, St. Albert, AB T8N 7X6, Canada. We're conveniently situated near St. Albert Centre, making us easily accessible from all parts of the city."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Do you offer delivery in St. Albert?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes, we offer delivery throughout St. Albert and surrounding areas. Our delivery service covers all major neighborhoods including Erin Ridge, Grandin, Lacombe Park, Downtown St. Albert, and more."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "What are your most popular dishes?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Our most popular dishes include Butter Chicken, Chicken Tikka Masala, Lamb Biryani, Kadhai Paneer, and Honey Chilli Fries. Our Gulab Jamun is also a customer favorite for dessert."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Do you have vegetarian and vegan options?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes, we offer a wide variety of vegetarian dishes including Shahi Paneer, Kadhai Paneer, Malai Kofta, and many more. We also have vegan options available."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "What are your hours of operation?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "We are open Monday to Friday from 11:30 AM to 9:00 PM, and Saturday to Sunday from 12:00 PM to 9:00 PM."
-            }
-          }
-        ]
-      }
-    </script>
-
-    <!-- Preload Images -->
-    <link rel="preload" as="image" href="./assets/backgrounds/4.webp" />
-    <link rel="preload" as="image" href="./assets/logo/logo.webp" />
   </head>
 
   <body>
@@ -209,9 +133,11 @@
         >Order Online</a
       >
     </div>
+    <!-- floating button -->
 
     <!-- navbar -->
     <div id="header-container"></div>
+    <!-- navbar -->
 
     <!-- Breadcrumb Navigation -->
     <div class="breadcrumb-container">
@@ -230,300 +156,205 @@
         </ul>
       </div>
     </div>
+    <!-- End Breadcrumb Navigation -->
 
-    <!-- ============================================ -->
-    <!--                    Hero                      -->
-    <!-- ============================================ -->
-    <section class="tags-v2-hero">
-      <div class="tags-v2-hero-bg">
+    <!-- Hero Section -->
+    <section id="home-hero">
+      <div class="cs-container">
+        <div class="cs-content">
+          <h1 class="cs-title">Best Indian Restaurant in St. Albert</h1>
+          <p class="cs-subtitle">Authentic Indian Cuisine Near You</p>
+          <p class="cs-text">
+            Welcome to Tandoori Fuzion, St. Albert's premier destination for authentic Indian cuisine. Located in the heart of St. Albert at 1115 St Albert Trail #360, we offer a delightful dining experience featuring traditional recipes and premium ingredients. Whether you're looking for a memorable dine-in experience or convenient takeout and delivery options, our restaurant brings the rich flavors of India right to your neighborhood.
+          </p>
+          <div class="cs-button-group">
+            <a
+              href="https://orders.iorders.online/tandoori-fuzion-albert-trail"
+              class="cs-button-solid cs-button1"
+              target="_blank"
+              >Order Now</a
+            >
+          </div>
+        </div>
+      </div>
+      <picture class="cs-background">
+        <source media="(max-width: 600px)" srcset="assets/backgrounds/4.webp" />
+        <source media="(min-width: 601px)" srcset="assets/backgrounds/4.webp" />
         <img
-          src="./assets/backgrounds/4.webp"
-          alt="Best Indian restaurant in St. Albert - Tandoori Fuzion"
           fetchpriority="high"
           decoding="async"
+          src="assets/backgrounds/4.webp"
+          alt="Best Indian restaurant in St. Albert - Tandoori Fuzion"
+          width="1920"
+          height="1200"
+          aria-hidden="true"
+        />
+      </picture>
+    </section>
+
+    <!-- Local Content Section -->
+    <section class="section__container explore__container" id="local-info">
+      <div class="explore__content">
+        <h2 class="section__header">St. Albert's Indian restaurant</h2>
+        <p class="section__description">
+          Since opening our doors in St. Albert, Tandoori Fuzion has become a beloved culinary destination, recently voted Best Asian Restaurant and Best Vegan Restaurant for 2024! Our restaurant is conveniently located near St. Albert Centre, where we proudly serve modern twists on classic Indian flavors, creating a unique fusion experience that delights both locals and visitors alike.
+        </p>
+        <p class="section__description">
+          Our restaurant is just minutes away from popular St. Albert landmarks including St. Albert Place, Servus Credit Union Place, and the Sturgeon River Valley. Whether you're looking for a pre-show dinner, a post-shopping meal, or simply craving authentic Indian flavors, Tandoori Fuzion is your perfect dining destination in St. Albert.
+        </p>
+      </div>
+      <div class="explore__image">
+        <img
+          src="assets/banner/5.webp"
+          alt="Tandoori Fuzion restaurant in St. Albert - Interior view"
+          width="500"
+          height="295"
+          loading="lazy"
         />
       </div>
-      <div class="tags-v2-hero-overlay"></div>
-      <div class="tags-v2-hero-content">
-        <span class="tags-v2-hero-topper">St. Albert's Premier Indian Dining</span>
-        <h1 class="tags-v2-hero-title">
-          Best Indian Restaurant<br />
-          <span class="tags-v2-gold-shimmer">In St. Albert</span>
-        </h1>
-        <p class="tags-v2-hero-subtitle">
-          Modern Twists, Classic Flavours
-        </p>
-        <div class="tags-v2-hero-badges">
-          <div class="tags-v2-badge">
-            <i class="ri-award-fill"></i>
-            <span>Best Asian 2024</span>
-          </div>
-          <div class="tags-v2-badge">
-            <i class="ri-leaf-fill"></i>
-            <span>Best Vegan 2024</span>
-          </div>
+    </section>
+
+    <!-- Delivery Areas Section -->
+    <section class="section__container" id="delivery-areas">
+      <h2 class="section__header">Our Delivery Areas in St. Albert</h2>
+      <p class="section__description">
+        Tandoori Fuzion proudly offers delivery services throughout St. Albert and surrounding areas. Our delivery service covers the following neighborhoods:
+      </p>
+      <div class="delivery-areas-grid">
+        <div class="delivery-area">
+          <h3>North St. Albert</h3>
+          <ul>
+            <li>Erin Ridge</li>
+            <li>Erin Ridge North</li>
+            <li>Oakmont</li>
+            <li>North Ridge</li>
+            <li>Deer Ridge</li>
+          </ul>
         </div>
-        <a
-          href="https://orders.iorders.online/tandoori-fuzion-albert-trail"
-          class="tags-v2-hero-cta"
+        <div class="delivery-area">
+          <h3>Central St. Albert</h3>
+          <ul>
+            <li>Downtown St. Albert</li>
+            <li>Grandin</li>
+            <li>Lacombe Park</li>
+            <li>Heritage Lakes</li>
+            <li>Akinsdale</li>
+          </ul>
+        </div>
+        <div class="delivery-area">
+          <h3>South St. Albert</h3>
+          <ul>
+            <li>Braeside</li>
+            <li>Forest Lawn</li>
+            <li>Pineview</li>
+            <li>Mission</li>
+            <li>Sturgeon Heights</li>
+          </ul>
+        </div>
+      </div>
+      <p class="delivery-note">
+        For areas outside our standard delivery zones, please call us at <a href="tel:17804594808">+1 (780) 459-4808</a> to inquire about delivery options.
+      </p>
+    </section>
+
+    <!-- Local Reviews Section -->
+    <section class="section__container" id="local-reviews">
+      <h2 class="section__header">What St. Albert Residents Say About Us</h2>
+      <div class="reviews-grid">
+        <div class="review-card">
+          <div class="review-stars">
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+          </div>
+          <p class="review-text">
+            "As a St. Albert resident for over 20 years, I've tried every Indian restaurant in the area. Tandoori Fuzion is by far the best! Their Butter Chicken is absolutely divine, and the service is always friendly and attentive."
+          </p>
+          <p class="reviewer-name">- Sarah M., Erin Ridge</p>
+        </div>
+        <div class="review-card">
+          <div class="review-stars">
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+          </div>
+          <p class="review-text">
+            "Tandoori Fuzion has become our family's go-to restaurant for special occasions. The food is consistently excellent, and they're so accommodating with our dietary preferences. Their delivery service is prompt and reliable too!"
+          </p>
+          <p class="reviewer-name">- Michael T., Lacombe Park</p>
+        </div>
+        <div class="review-card">
+          <div class="review-stars">
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+          </div>
+          <p class="review-text">
+            "I recently moved to St. Albert and was thrilled to discover Tandoori Fuzion. Their Lamb Biryani is the most authentic I've had in Canada, and their vegetarian options are plentiful and delicious. A true gem in our community!"
+          </p>
+          <p class="reviewer-name">- Priya K., Downtown St. Albert</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section__container faq__container" id="faq">
+      <h2 class="section__header">Frequently Asked Questions</h2>
+      <div class="faq-wrapper">
+        <div class="faq-item">
+          <h3 class="faq-question">Where is Tandoori Fuzion located in St. Albert?</h3>
+          <p class="faq-answer">
+            Tandoori Fuzion is located at 1115 St Albert Trail #360, St. Albert, AB T8N 7X6, Canada. We're conveniently situated near St. Albert Centre, making us easily accessible from all parts of the city.
+          </p>
+        </div>
+        <div class="faq-item">
+          <h3 class="faq-question">Do you offer delivery in St. Albert?</h3>
+          <p class="faq-answer">
+            Yes, we offer delivery throughout St. Albert and surrounding areas. Our delivery service covers all major neighborhoods including Erin Ridge, Grandin, Lacombe Park, Downtown St. Albert, and more. For specific delivery inquiries, please call us at +1 (780) 459-4808.
+          </p>
+        </div>
+        <div class="faq-item">
+          <h3 class="faq-question">What are your most popular dishes?</h3>
+          <p class="faq-answer">
+            Our most popular dishes include Butter Chicken, Chicken Tikka Masala, Lamb Biryani, Kadhai Paneer, and Honey Chilli Fries. Our Gulab Jamun is also a customer favorite for dessert.
+          </p>
+        </div>
+        <div class="faq-item">
+          <h3 class="faq-question">Do you have vegetarian and vegan options?</h3>
+          <p class="faq-answer">
+            Yes, we offer a wide variety of vegetarian dishes including Shahi Paneer, Kadhai Paneer, Malai Kofta, and many more. We also have vegan options available - just ask our staff for recommendations.
+          </p>
+        </div>
+        <div class="faq-item">
+          <h3 class="faq-question">What are your hours of operation?</h3>
+          <p class="faq-answer">
+            We are open Monday to Friday from 11:30 AM to 9:00 PM, and Saturday to Sunday from 12:00 PM to 9:00 PM.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="section__container cta__container">
+      <h2 class="section__header">Experience the Best Indian Cuisine in St. Albert</h2>
+      <p class="section__description">
+        Whether you're dining in, taking out, or ordering delivery, Tandoori Fuzion brings the authentic flavors of India to St. Albert. Visit us today or order online to experience our delicious menu offerings.
+      </p>
+      <div class="menu-btn-wrapper">
+        <a href="https://orders.iorders.online/tandoori-fuzion-albert-trail" class="btn" style="margin-bottom: 2rem"
           target="_blank"
           onclick="fbq('track', 'Lead');"
+          >Order Now</a
+        > &nbsp;
+        <a href="menu.html#menu-section" class="btn" style="margin-bottom: 2rem"
+          >Our Menu</a
         >
-          Order Now
-        </a>
-      </div>
-      <div class="tags-v2-scroll-indicator">
-        <span>Scroll</span>
-        <i class="ri-arrow-down-line"></i>
-      </div>
-    </section>
-
-    <!-- ============================================ -->
-    <!--              Story Section                   -->
-    <!-- ============================================ -->
-    <section class="tags-v2-story" id="local-info">
-      <div class="tags-v2-story-container">
-        <div class="tags-v2-story-image">
-          <div class="tags-v2-story-image-frame">
-            <img
-              src="./assets/banner/5.webp"
-              alt="Tandoori Fuzion restaurant in St. Albert - Interior view"
-              loading="lazy"
-            />
-          </div>
-        </div>
-        <div class="tags-v2-story-content">
-          <span class="tags-v2-section-label">Our Story</span>
-          <h2 class="tags-v2-section-title">
-            St. Albert's Beloved<br />
-            <span class="tags-v2-gold-shimmer">Indian Restaurant</span>
-          </h2>
-          <p class="tags-v2-section-text">
-            Since opening our doors in St. Albert, Tandoori Fuzion has become a beloved
-            culinary destination, recently voted Best Asian Restaurant and Best Vegan
-            Restaurant for 2024! Our restaurant is conveniently located near St. Albert Centre.
-          </p>
-          <p class="tags-v2-section-text">
-            We're just minutes away from popular landmarks including St. Albert Place,
-            Servus Credit Union Place, and the Sturgeon River Valley. Whether you're looking
-            for a pre-show dinner or simply craving authentic Indian flavors, we're your
-            perfect dining destination.
-          </p>
-          <a href="./about.html" class="tags-v2-story-btn">
-            Learn More About Us
-            <i class="ri-arrow-right-line"></i>
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <!-- ============================================ -->
-    <!--           Delivery Areas Section             -->
-    <!-- ============================================ -->
-    <section class="tags-v2-features" id="delivery-areas">
-      <div class="tags-v2-features-container">
-        <span class="tags-v2-section-label tags-v2-section-label-center">We Deliver</span>
-        <h2 class="tags-v2-section-title tags-v2-section-title-center">
-          Delivery Areas in <span class="tags-v2-gold-shimmer">St. Albert</span>
-        </h2>
-        <div class="tags-v2-features-grid">
-          <div class="tags-v2-feature-card">
-            <div class="tags-v2-feature-icon">
-              <i class="ri-compass-3-fill"></i>
-            </div>
-            <h3 class="tags-v2-feature-title">North St. Albert</h3>
-            <p class="tags-v2-feature-text">
-              Erin Ridge, Erin Ridge North, Oakmont, North Ridge, Deer Ridge
-            </p>
-          </div>
-          <div class="tags-v2-feature-card">
-            <div class="tags-v2-feature-icon">
-              <i class="ri-building-fill"></i>
-            </div>
-            <h3 class="tags-v2-feature-title">Central St. Albert</h3>
-            <p class="tags-v2-feature-text">
-              Downtown St. Albert, Grandin, Lacombe Park, Heritage Lakes, Akinsdale
-            </p>
-          </div>
-          <div class="tags-v2-feature-card">
-            <div class="tags-v2-feature-icon">
-              <i class="ri-home-heart-fill"></i>
-            </div>
-            <h3 class="tags-v2-feature-title">South St. Albert</h3>
-            <p class="tags-v2-feature-text">
-              Braeside, Forest Lawn, Pineview, Mission, Sturgeon Heights
-            </p>
-          </div>
-        </div>
-        <p class="tags-v2-delivery-note">
-          For areas outside our standard delivery zones, please call us at
-          <a href="tel:17804594808">+1 (780) 459-4808</a>
-        </p>
-      </div>
-    </section>
-
-    <!-- ============================================ -->
-    <!--              Reviews Section                 -->
-    <!-- ============================================ -->
-    <section class="tags-v2-reviews" id="local-reviews">
-      <div class="tags-v2-reviews-container">
-        <span class="tags-v2-section-label tags-v2-section-label-center">Testimonials</span>
-        <h2 class="tags-v2-section-title tags-v2-section-title-center">
-          What St. Albert <span class="tags-v2-gold-shimmer">Residents Say</span>
-        </h2>
-        <div class="tags-v2-reviews-grid">
-          <div class="tags-v2-review-card">
-            <div class="tags-v2-review-stars">
-              <i class="ri-star-fill"></i>
-              <i class="ri-star-fill"></i>
-              <i class="ri-star-fill"></i>
-              <i class="ri-star-fill"></i>
-              <i class="ri-star-fill"></i>
-            </div>
-            <p class="tags-v2-review-text">
-              "As a St. Albert resident for over 20 years, I've tried every Indian restaurant
-              in the area. Tandoori Fuzion is by far the best! Their Butter Chicken is
-              absolutely divine, and the service is always friendly."
-            </p>
-            <p class="tags-v2-review-author">Sarah M., Erin Ridge</p>
-          </div>
-          <div class="tags-v2-review-card">
-            <div class="tags-v2-review-stars">
-              <i class="ri-star-fill"></i>
-              <i class="ri-star-fill"></i>
-              <i class="ri-star-fill"></i>
-              <i class="ri-star-fill"></i>
-              <i class="ri-star-fill"></i>
-            </div>
-            <p class="tags-v2-review-text">
-              "Tandoori Fuzion has become our family's go-to restaurant for special occasions.
-              The food is consistently excellent, and they're so accommodating with dietary
-              preferences. Delivery is prompt and reliable!"
-            </p>
-            <p class="tags-v2-review-author">Michael T., Lacombe Park</p>
-          </div>
-          <div class="tags-v2-review-card">
-            <div class="tags-v2-review-stars">
-              <i class="ri-star-fill"></i>
-              <i class="ri-star-fill"></i>
-              <i class="ri-star-fill"></i>
-              <i class="ri-star-fill"></i>
-              <i class="ri-star-fill"></i>
-            </div>
-            <p class="tags-v2-review-text">
-              "I recently moved to St. Albert and was thrilled to discover Tandoori Fuzion.
-              Their Lamb Biryani is the most authentic I've had in Canada. The vegetarian
-              options are plentiful and delicious. A true gem!"
-            </p>
-            <p class="tags-v2-review-author">Priya K., Downtown St. Albert</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ============================================ -->
-    <!--               FAQ Section                    -->
-    <!-- ============================================ -->
-    <section class="tags-v2-faq" id="faq">
-      <div class="tags-v2-faq-container">
-        <span class="tags-v2-section-label tags-v2-section-label-center">Have Questions?</span>
-        <h2 class="tags-v2-section-title tags-v2-section-title-center">
-          Frequently Asked <span class="tags-v2-gold-shimmer">Questions</span>
-        </h2>
-        <div class="tags-v2-faq-grid">
-          <div class="tags-v2-faq-item">
-            <h3 class="tags-v2-faq-question">
-              <i class="ri-map-pin-fill"></i>
-              Where is Tandoori Fuzion located in St. Albert?
-            </h3>
-            <p class="tags-v2-faq-answer">
-              Tandoori Fuzion is located at 1115 St Albert Trail #360, St. Albert, AB T8N 7X6.
-              We're conveniently situated near St. Albert Centre, making us easily accessible
-              from all parts of the city.
-            </p>
-          </div>
-          <div class="tags-v2-faq-item">
-            <h3 class="tags-v2-faq-question">
-              <i class="ri-truck-fill"></i>
-              Do you offer delivery in St. Albert?
-            </h3>
-            <p class="tags-v2-faq-answer">
-              Yes, we offer delivery throughout St. Albert and surrounding areas. Our delivery
-              service covers all major neighborhoods including Erin Ridge, Grandin, Lacombe Park,
-              Downtown St. Albert, and more.
-            </p>
-          </div>
-          <div class="tags-v2-faq-item">
-            <h3 class="tags-v2-faq-question">
-              <i class="ri-restaurant-fill"></i>
-              What are your most popular dishes?
-            </h3>
-            <p class="tags-v2-faq-answer">
-              Our most popular dishes include Butter Chicken, Chicken Tikka Masala, Lamb Biryani,
-              Kadhai Paneer, and Honey Chilli Fries. Our Gulab Jamun is also a customer favorite
-              for dessert.
-            </p>
-          </div>
-          <div class="tags-v2-faq-item">
-            <h3 class="tags-v2-faq-question">
-              <i class="ri-leaf-fill"></i>
-              Do you have vegetarian and vegan options?
-            </h3>
-            <p class="tags-v2-faq-answer">
-              Yes, we offer a wide variety of vegetarian dishes including Shahi Paneer, Kadhai
-              Paneer, Malai Kofta, and many more. We also have vegan options available - just
-              ask our staff for recommendations.
-            </p>
-          </div>
-          <div class="tags-v2-faq-item">
-            <h3 class="tags-v2-faq-question">
-              <i class="ri-time-fill"></i>
-              What are your hours of operation?
-            </h3>
-            <p class="tags-v2-faq-answer">
-              We are open Monday to Friday from 11:30 AM to 9:00 PM, and Saturday to Sunday
-              from 12:00 PM to 9:00 PM.
-            </p>
-          </div>
-          <div class="tags-v2-faq-item">
-            <h3 class="tags-v2-faq-question">
-              <i class="ri-phone-fill"></i>
-              How can I contact you?
-            </h3>
-            <p class="tags-v2-faq-answer">
-              You can reach us by phone at +1 (780) 459-4808 or email at info.tandoorifuzion@gmail.com.
-              You can also order online through our website.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ============================================ -->
-    <!--                CTA Section                   -->
-    <!-- ============================================ -->
-    <section class="tags-v2-cta">
-      <div class="tags-v2-cta-container">
-        <h2 class="tags-v2-cta-title">
-          Experience the Best Indian Cuisine in St. Albert
-        </h2>
-        <p class="tags-v2-cta-text">
-          Whether you're dining in, taking out, or ordering delivery, Tandoori Fuzion brings
-          the authentic flavors of India to St. Albert. Visit us today or order online.
-        </p>
-        <div class="tags-v2-cta-buttons">
-          <a
-            href="https://orders.iorders.online/tandoori-fuzion-albert-trail"
-            class="tags-v2-cta-btn tags-v2-cta-btn-primary"
-            target="_blank"
-            onclick="fbq('track', 'Lead');"
-          >
-            Order Now
-          </a>
-          <a href="./menu.html" class="tags-v2-cta-btn tags-v2-cta-btn-secondary">
-            View Menu
-          </a>
-        </div>
       </div>
     </section>
 
@@ -534,28 +365,5 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script type="module" src="./script.js"></script>
     <script src="./components.js"></script>
-
-    <!-- ScrollReveal Animations -->
-    <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        if (typeof ScrollReveal !== 'undefined') {
-          const sr = ScrollReveal({
-            origin: 'bottom',
-            distance: '30px',
-            duration: 800,
-            easing: 'ease-out',
-            reset: false
-          });
-
-          sr.reveal('.tags-v2-hero-content > *', { delay: 200, interval: 100 });
-          sr.reveal('.tags-v2-story-image', { delay: 200 });
-          sr.reveal('.tags-v2-story-content', { delay: 300 });
-          sr.reveal('.tags-v2-feature-card', { delay: 200, interval: 100 });
-          sr.reveal('.tags-v2-review-card', { delay: 200, interval: 100 });
-          sr.reveal('.tags-v2-faq-item', { delay: 200, interval: 100 });
-          sr.reveal('.tags-v2-cta-container > *', { delay: 200, interval: 100 });
-        }
-      });
-    </script>
   </body>
-</html>
+</html> 
