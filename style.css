@@ -2,9 +2,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
 
 :root {
-  --primary-color: #e02c2c;
+  --primary-color: #ff8400;
   --primary-color-light: #fffcfa;
-  --primary-color-dark: #dc2f2f;
+  --primary-color-dark: #ff8400;
   --text-dark: #18181b;
   --text-light: #6b7280;
   --white: #ffffff;
@@ -187,11 +187,9 @@ body {
 }
 
 .logo__image {
-  width: 220px;
+  width: 155px;
   height: auto;
-  background: #fff;
   border-radius: 8px;
-  margin-top: 10px;
 }
 
 .nav__menu__btn {
@@ -279,10 +277,9 @@ body {
   }
 
   .nav__header .logo__wrapper img {
-    width: 150px;
+    width: 110px;
     height: auto;
     border-radius: 10px;
-    margin-top: 1px;
   }
 
   .nav__links.open {
