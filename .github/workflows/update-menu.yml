@@ -1,14 +1,14 @@
-name: Update Menu Daily Wing Crafters London
+name: Update Menu Daily Hakka Kitchen Okotoks
 
 env:
-  ORDERING_LINK: https://orders.iorders.online/wing-crafters-london-5092
+  ORDERING_LINK: https://orders.iorders.online/hakka-kitchen-okotoks-5205
   # STORE_NAME is derived from ORDERING_LINK (removes https://orders.iorders.online/)
 
 on:
   schedule:
-    # Run daily at midnight Canada/Saskatchewan time (CST/UTC-6)
-    # 00:00 CST = 06:00 UTC
-    - cron: '0 6 * * *'
+    # Run daily at midnight Mountain Time (MST/UTC-7)
+    # 00:00 MST = 07:00 UTC
+    - cron: '0 7 * * *'
   workflow_dispatch: # Allow manual trigger
 
 permissions:

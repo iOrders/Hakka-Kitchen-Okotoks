@@ -53,3 +53,145 @@ body {
   margin: 0;
   color: var(--bodyTextColor);
 }
+
+/* Location & Contact Section - For Dish Pages */
+.location-contact-container {
+  background-color: #f9f9f9;
+  padding: 4rem 1rem;
+}
+
+.location-contact-wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+.map-section iframe {
+  width: 100%;
+  height: 450px;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.info-section {
+  padding: 1.5rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.info-section h3 {
+  font-size: 1.75rem;
+  color: var(--headerColor);
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+}
+
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.contact-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.contact-item i {
+  font-size: 1.5rem;
+  color: var(--primary-color, #e02c2c);
+  margin-top: 0.25rem;
+  flex-shrink: 0;
+}
+
+.contact-item h4 {
+  font-size: 1.1rem;
+  color: var(--headerColor);
+  margin: 0 0 0.5rem 0;
+  font-weight: 600;
+}
+
+.contact-item p,
+.contact-item a {
+  font-size: 1rem;
+  color: var(--bodyTextColor);
+  margin: 0;
+  text-decoration: none;
+  line-height: 1.6;
+}
+
+.contact-item a:hover {
+  color: var(--primary-color, #e02c2c);
+}
+
+.hours-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.hours-list li {
+  padding: 0.4rem 0;
+  font-size: 0.95rem;
+  color: var(--bodyTextColor);
+}
+
+.hours-list strong {
+  color: var(--headerColor);
+  display: inline-block;
+  min-width: 90px;
+}
+
+.location-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.location-actions .btn {
+  flex: 1;
+  min-width: 180px;
+  text-align: center;
+  padding: 0.875rem 1.5rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.location-actions .btn i {
+  font-size: 1.1rem;
+}
+
+/* Desktop Layout */
+@media (min-width: 768px) {
+  .location-contact-wrapper {
+    grid-template-columns: 1.2fr 1fr;
+    gap: 2.5rem;
+  }
+
+  .map-section iframe {
+    height: 550px;
+  }
+
+  .info-section {
+    padding: 2rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .location-contact-wrapper {
+    gap: 3rem;
+  }
+
+  .map-section iframe {
+    height: 600px;
+  }
+}
