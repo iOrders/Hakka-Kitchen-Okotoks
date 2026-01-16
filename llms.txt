@@ -1,73 +1,110 @@
-# Tandoori Fuzion Restaurant Website
+# Hakka Kitchen Restaurant Website
 
 ## Business Overview
-Tandoori Fuzion is an Indian restaurant located in St. Albert, Alberta, Canada. We specialize in authentic Indian cuisine with modern twists, offering both traditional dishes and fusion creations. Voted Best Asian Restaurant and Best Vegan Restaurant in 2024.
+Hakka Kitchen is an authentic Indian and Hakka cuisine restaurant located in Okotoks, Alberta, Canada. We specialize in traditional Indian dishes alongside Hakka and Nepali-style cuisine prepared with bold spices and authentic cooking techniques. Our restaurant offers dine-in, takeout, and catering services, featuring signature dishes like Chicken Tikka Masala, Goat Rara, Butter Prawn, and more.
 
 ## Location & Contact Information
-- **Address**: St. Albert, Alberta, Canada
-- **Geographic Coordinates**: 53.6729339, -113.6384325
-- **Website**: https://www.tandoorifuzion.com
-- **Service Areas**: St. Albert, Erin Ridge, Oakmont, Riel Business Park, St. Albert Downtown
+- **Address**: 100 Stockton Ave, Okotoks, AB T1S 0A1, Canada
+- **Phone**: +1 587-971-7411
+- **Geographic Coordinates**: 50.7199280134305, -113.95499967270565
+- **Website**: https://hakkakitchenrestaurant.com
+- **Online Ordering**: https://orders.iorders.online/hakka-kitchen-okotoks-5205
+- **Google Maps**: https://maps.app.goo.gl/JsTmaQcbYhdEuwTN7
+
+## Operating Hours
+- **Monday**: Closed
+- **Tuesday - Thursday**: 11:30 AM - 9:00 PM
+- **Friday**: 11:30 AM - 10:00 PM
+- **Saturday**: 10:00 AM - 10:00 PM
+- **Sunday**: 10:00 AM - 9:00 PM
+
+## Service Areas in Okotoks
+
+### Primary Delivery Areas
+- Cimarron
+- Drake Landing
+- Downtown Okotoks
+- Downey
+- Westmount
+- Westridge
+- Mountain View
+- Sandstone
+
+### Secondary Delivery Areas
+- Crystal Shores
+- Sheep River
+- Sheep River Heights
+- Sheep River Cove
+- Hunters Glen
+- Rosemount
 
 ## Key Features & Services
 
 ### Restaurant Services
-- Dine-in restaurant with cozy atmosphere
+- Dine-in restaurant with authentic atmosphere
 - Takeout and delivery services
 - Catering for events and special occasions
-- Online reservation system
-- Online enquiry form for custom requests
+- Online ordering system via iOrders
+- Phone orders and reservations
 
 ### Cuisine Specialties
 - Authentic Indian dishes
-- Modern fusion creations
-- Extensive vegan and vegetarian options
-- Gluten-free options available
+- Hakka cuisine (Indo-Chinese fusion)
+- Nepali-style specialties
+- Traditional tandoori cooking
+- Aromatic biryanis
+- Fresh-baked naan and breads
+- Rich curries and gravies
+- Vegetarian options available
 
-### Signature Dishes
-- Butter Chicken
-- Chicken Tikka Masala
-- Lamb Biryani
-- Kadhai Paneer
-- Honey Chilli Fries
-- Chicken Tikka
-- Shahi Paneer
-- Chicken Black Pepper
-- Chicken Chettinad
-- Gulab Jamun
-- Malai Kofta
-- Tandoori Chicken
-- Garlic Naan
+### Recommended Signature Dishes
+1. **Chicken Tikka Masala** - Our most popular dish featuring tender chicken in rich tomato cream sauce
+2. **Goat Rara** - Nepali-style goat curry with bold spices (dairy-free)
+3. **Butter Prawn** - Premium seafood specialty in creamy butter sauce
+4. **Chilly Chicken** - Indo-Chinese fusion appetizer with spicy flavor
+5. **Lamb Curry** - Traditional lamb preparation with authentic spices
+6. **Butter Chicken with Naan** - Classic combination of creamy curry and fresh-baked bread
 
 ## Website Structure
 
 ### Main Pages
-- **Home** (index.html): Main landing page showcasing restaurant highlights, and featured dishes
-- **Menu** (menu.html): Complete menu with categories, dishes, prices, and dietary information
-- **About** (about.html): Restaurant story, mission, and values
-- **Our Food** (our-food.html): Detailed information about cuisine philosophy and ingredients
-- **Catering** (catering.html): Catering services for events, parties, and corporate functions
-- **Reservation** (reservation.html): Online table booking system
-- **Contact Us** (contact-us.html): Location, hours, phone numbers, and contact form
-- **Enquiry** (enquiry.html): Custom request and inquiry form
+- **Home** (index.html): Main landing page showcasing restaurant highlights, popular dishes, service areas, and location
+- **Menu** (menu.html): Complete menu with categories, dishes, and online ordering integration
+- **About** (about.html): Restaurant story, cuisine philosophy, and mission
+- **Our Food** (our-food.html): Photo gallery of authentic Indian and Hakka dishes
+- **Contact Us** (contact-us.html): Location map, hours, phone number, and address
 
-### Location-Specific Pages
-- St. Albert Indian Restaurant (st-albert-indian-restaurant.html)
-- Erin Ridge Indian Restaurant (tags/places/erin-ridge-indian-restaurant.html)
-- Oakmont Indian Restaurant (tags/places/oakmont-indian-restaurant.html)
-- Riel Business Park Indian Restaurant (tags/places/riel-business-park-indian-restaurant.html)
-- St. Albert Downtown Indian Restaurant (tags/places/st-albert-downtown-indian-restaurant.html)
+### SEO & Information Pages
+- **Okotoks Indian Restaurant** (okotoks-indian-restaurant.html): Local SEO landing page
 
 ### Service Pages
-- Indian Food Delivery St. Albert (tags/indian-food-delivery-st-albert.html)
-- Indian Food Takeout St. Albert (tags/indian-food-takeout-st-albert.html)
+- **Indian Food Delivery Okotoks** (tags/indian-food-delivery-okotoks.html): Delivery service information
+- **Indian Food Takeout Okotoks** (tags/indian-food-takeout-okotoks.html): Takeout service information
 
-### Dish-Specific Pages
-- Butter Chicken St. Albert (tags/dishes/butter-chicken-st-albert.html)
-- Chicken Tikka Masala St. Albert (tags/dishes/chicken-tikka-masala-st-albert.html)
-- Honey Chilli Fries St. Albert (tags/dishes/honey-chilli-fries-st-albert.html)
-- Kadhai Paneer St. Albert (tags/dishes/kadhai-paneer-st-albert.html)
-- Lamb Biryani St. Albert (tags/dishes/lamb-biryani-st-albert.html)
+### Dish-Specific Landing Pages
+- Chicken Tikka Masala Okotoks (tags/dishes/chicken-tikka-masala-okotoks.html)
+- Goat Rara Okotoks (tags/dishes/goat-rara-okotoks.html)
+- Butter Prawn Okotoks (tags/dishes/butter-prawn-okotoks.html)
+- Chilly Chicken Okotoks (tags/dishes/chilly-chicken-okotoks.html)
+- Lamb Curry Okotoks (tags/dishes/lamb-curry-okotoks.html)
+- Butter Chicken with Naan Okotoks (tags/dishes/butter-chicken-naan-okotoks.html)
+
+### Location-Specific Landing Pages
+Each Okotoks neighborhood has a dedicated delivery landing page:
+- Cimarron (tags/places/cimarron-delivery-from-hakka-kitchen.html)
+- Drake Landing (tags/places/drake-landing-delivery-from-hakka-kitchen.html)
+- Downtown Okotoks (tags/places/downtown-okotoks-delivery-from-hakka-kitchen.html)
+- Downey (tags/places/downey-delivery-from-hakka-kitchen.html)
+- Westmount (tags/places/westmount-delivery-from-hakka-kitchen.html)
+- Westridge (tags/places/westridge-delivery-from-hakka-kitchen.html)
+- Mountain View (tags/places/mountain-view-delivery-from-hakka-kitchen.html)
+- Sandstone (tags/places/sandstone-delivery-from-hakka-kitchen.html)
+- Crystal Shores (tags/places/crystal-shores-delivery-from-hakka-kitchen.html)
+- Sheep River (tags/places/sheep-river-delivery-from-hakka-kitchen.html)
+- Sheep River Heights (tags/places/sheep-river-heights-delivery-from-hakka-kitchen.html)
+- Sheep River Cove (tags/places/sheep-river-cove-delivery-from-hakka-kitchen.html)
+- Hunters Glen (tags/places/hunters-glen-delivery-from-hakka-kitchen.html)
+- Rosemount (tags/places/rosemount-delivery-from-hakka-kitchen.html)
 
 ### Legal Pages
 - Privacy Policy (privacy-policy.html)
@@ -79,107 +116,124 @@ Tandoori Fuzion is an Indian restaurant located in St. Albert, Alberta, Canada. 
 - HTML5 semantic markup
 - CSS3 with responsive design
 - JavaScript for interactivity
-- Component-based architecture (components.js)
-- Dynamic header and footer components
+- Component-based architecture with dynamic ROOT_PATH replacement
+- Dynamic header and footer components (components.js)
 
 ### Assets Organization
 - Images optimized in WebP format
-- Categorized asset folders (gallery, banners, dishes, icons)
-- SVG icons for UI elements
-- Responsive image loading
+- Categorized asset folders (gallery, banners, backgrounds, logo, favicon)
+- Responsive image loading with proper srcset attributes
+- Preloaded critical images for performance
 
 ### SEO Features
-- Semantic HTML structure
-- Meta descriptions and keywords
-- Open Graph tags for social media
+- Semantic HTML structure with proper heading hierarchy (H1, H2, H3, H4)
+- Meta descriptions optimized (150-160 characters)
+- Title tags optimized (50-60 characters)
+- Open Graph tags for social media sharing
 - Twitter Card integration
-- Sitemap.xml for search engines
+- Canonical URLs for all pages
+- Structured data markup (Schema.org):
+  - Restaurant schema with complete NAP (Name, Address, Phone)
+  - LocalBusiness schema
+  - BreadcrumbList schema
+  - FAQPage schema
+  - ContactPage schema
+  - AboutPage schema
+  - ImageGallery schema
+  - Menu schema
+- XML Sitemap (sitemap.xml)
 - Robots.txt for crawler guidance
-- Canonical URLs
-- Structured data markup
-- Local business schema
+- Geo-positioning meta tags for local SEO
+- Google Maps iframe integration
 
 ### Performance Optimizations
 - WebP image format for faster loading
 - Component-based architecture for code reusability
-- Responsive images with proper sizing
+- Responsive images with proper width/height attributes
+- Optimized meta viewport settings for mobile
+- Minimal external dependencies
 - Lazy loading implementation
-- Optimized meta viewport settings
+- Preload directives for critical assets
 
 ## Content Guidelines
 
 ### Brand Voice
-- Warm and welcoming tone
-- Emphasis on quality and authenticity
-- Focus on fresh ingredients and traditional techniques
-- Modern twists on classic flavors
+- Authentic and welcoming tone
+- Emphasis on traditional cooking techniques
+- Focus on bold spices and fresh ingredients
+- Highlighting Hakka and Nepali-style specialties
+- Family-friendly and community-oriented
 
 ### Key Messaging
-- "Modern Twists, Classic Flavours"
-- Best Asian Restaurant 2024
-- Best Vegan Restaurant 2024
-- Authentic Indian delicacies
-- Cozy St. Albert atmosphere
-- Family-friendly dining
-- Catering for all occasions
+- "Authentic Indian & Hakka Restaurant in Okotoks"
+- Traditional Indian flavors with freshly prepared meals
+- Bold spices and authentic cooking techniques
+- Signature dishes: Chicken Tikka Masala, Goat Rara, Butter Prawn
+- Serving Okotoks neighborhoods with quality cuisine
+- Dine-in, takeout, and catering available
 
 ## User Experience Features
 
 ### Navigation
-- Clear menu structure
-- Quick access to reservations
-- Easy-to-find contact information
-- Mobile-responsive design
-- Accessibility considerations
+- Clear menu structure with consistent navigation
+- Quick access to online ordering
+- Easy-to-find contact information and hours
+- Mobile-responsive design for all devices
+- Breadcrumb navigation on all pages
+- Floating "Order Online" button for conversion
 
 ### Interactive Elements
-- Online reservation system
-- Enquiry form for custom requests
-- Image galleries
-- Menu browsing with filters
-- Social media integration
+- Google Maps integration for directions
+- Online ordering via iOrders platform
+- Image galleries showcasing dishes
+- Social media meta tags for sharing
+- Click-to-call phone links
+- Direct links to Google Maps location
 
 ## Business Objectives
-2. Drive online reservations and orders
-3. Highlight diverse menu options including vegan and gluten-free
-4. Promote catering services
-5. Build local SEO presence in St. Albert area
-6. Provide easy access to menu and pricing information
-7. Facilitate customer inquiries and feedback
+1. Build strong local SEO presence in Okotoks and surrounding neighborhoods
+2. Drive online orders through iOrders integration
+3. Highlight signature dishes and authentic cooking techniques
+4. Promote delivery and takeout services to all Okotoks areas
+5. Provide easy access to menu and ordering information
+6. Establish brand as premier Indian and Hakka restaurant in Okotoks
+7. Facilitate customer contact via phone for reservations and catering
 
 ## Target Audience
-- Local St. Albert residents
-- Indian food enthusiasts
-- Vegans and vegetarians
-- Families looking for dining options
-- Corporate clients for catering
-- Event planners
-- Food delivery customers
-- Health-conscious diners
+- Okotoks residents in all neighborhoods
+- Indian food enthusiasts seeking authentic cuisine
+- Hakka cuisine fans (Indo-Chinese fusion lovers)
+- Families looking for dining and takeout options
+- Corporate clients for catering services
+- Food delivery customers in Okotoks area
+- People searching for specific dishes (Tikka Masala, Goat Rara, etc.)
+- Diners seeking traditional and Nepali-style Indian food
 
 ## Unique Selling Points
-- best indian restaurant (Best Asian & Vegan 2024)
-- Authentic Indian cuisine with modern fusion
-- Extensive vegan and vegetarian menu
-- Gluten-free options
+- Authentic Indian, Hakka, and Nepali-style cuisine
+- Bold spices and traditional cooking techniques
+- Signature dishes: Chicken Tikka Masala, Goat Rara, Butter Prawn
+- Fresh-baked naan and tandoori specialties
+- Convenient Okotoks location (100 Stockton Ave)
+- Delivery to all major Okotoks neighborhoods
 - Professional catering services
-- Convenient St. Albert location
-- Online ordering and reservations
-- Family-friendly atmosphere
+- Online ordering via iOrders platform
+- Family-owned and operated with authentic recipes
 
 ## Content Management
 - Regular menu updates
 - Seasonal specials and promotions
-- Event announcements
-- Gallery updates with new dishes
-- Customer testimonials
+- Gallery updates with new dish photos
+- Service area expansion updates
+- Operating hours clearly displayed
+- Consistent NAP (Name, Address, Phone) across all pages
 
-## Future Enhancements
-- Online ordering system integration
-- Loyalty program implementation
-- Mobile app development
-- Enhanced photo galleries
-- Customer review integration
-- Real-time table availability
-- Newsletter subscription
-- Blog for recipes and stories
+## Technical Notes for AI Agents
+- All component HTML files use ROOT_PATH placeholder for dynamic path resolution
+- Header component (components/header.html) includes navigation and branding
+- Footer component (components/footer.html) includes hours, address, phone, and legal links
+- All pages follow consistent SEO structure with proper schema markup
+- Location pages target specific Okotoks neighborhoods for local SEO
+- Dish pages target specific menu items for search visibility
+- Mobile-first responsive design approach
+- No reservation.html or enquiry.html pages exist in this implementation

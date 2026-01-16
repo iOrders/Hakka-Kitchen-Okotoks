@@ -1,4 +1,4 @@
-# Tandoori Fuzion Robots.txt
+# Hakka Kitchen Okotoks Robots.txt
 # Main directives for all bots
 User-agent: *
 Allow: /
@@ -14,6 +14,9 @@ Disallow: /*?*month=*
 Disallow: /*?*view=*
 Disallow: /*?*format=*
 
+# Do not index llms.txt
+Disallow: /llms.txt
+
 # AI Bot specific directives
 User-agent: GPTBot
 User-agent: ChatGPT-User
@@ -26,6 +29,7 @@ User-agent: cohere-ai
 Allow: /
 Disallow: /privacy-policy.html
 Disallow: /terms-of-use.html
+Disallow: /llms.txt
 
 # Google Ads Bot
 User-agent: AdsBot-Google
@@ -34,7 +38,7 @@ User-agent: AdsBot-Google-Mobile-Apps
 Allow: /
 
 # Sitemap location
-Sitemap: https://www.tandoorifuzion.com/sitemap.xml
+Sitemap: https://hakkakitchenrestaurant.com/sitemap.xml
 
 # Crawl delay for heavy bots
 User-agent: Baiduspider
